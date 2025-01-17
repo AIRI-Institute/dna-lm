@@ -103,16 +103,19 @@ model = BigBirdForSequenceClassification.from_pretrained('AIRI-Institute/gena-lm
 
 ## Citation
 ```
-@article {GENA_LM,
-	author = {Veniamin Fishman and Yuri Kuratov and Maxim Petrov and Aleksei Shmelev and Denis Shepelin and Nikolay Chekanov and Olga Kardymon and Mikhail Burtsev},
-	title = {GENA-LM: A Family of Open-Source Foundational Models for Long DNA Sequences},
-	elocation-id = {2023.06.12.544594},
-	year = {2023},
-	doi = {10.1101/2023.06.12.544594},
-	publisher = {Cold Spring Harbor Laboratory},
-	URL = {https://www.biorxiv.org/content/early/2023/06/13/2023.06.12.544594},
-	eprint = {https://www.biorxiv.org/content/early/2023/06/13/2023.06.12.544594.full.pdf},
-	journal = {bioRxiv}
+@article{GENA_LM,
+    author = {Fishman, Veniamin and Kuratov, Yuri and Shmelev, Aleksei and Petrov, Maxim and Penzar, Dmitry and Shepelin, Denis and Chekanov, Nikolay and Kardymon, Olga and Burtsev, Mikhail},
+    title = {GENA-LM: a family of open-source foundational DNA language models for long sequences},
+    journal = {Nucleic Acids Research},
+    volume = {53},
+    number = {2},
+    pages = {gkae1310},
+    year = {2025},
+    month = {01},
+    issn = {0305-1048},
+    doi = {10.1093/nar/gkae1310},
+    url = {https://doi.org/10.1093/nar/gkae1310},
+    eprint = {https://academic.oup.com/nar/article-pdf/53/2/gkae1310/61443229/gkae1310.pdf},
 }
 ```
 
